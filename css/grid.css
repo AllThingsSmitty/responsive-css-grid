@@ -1,0 +1,74 @@
+/**
+ * Resets
+ */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/**
+ * Global
+ */
+body {
+  background: #333;
+  color: #666;
+  font-family: "Helvetica Neua", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/**
+ * Grid
+ */
+.container {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 1.25em;
+}
+
+.row {
+  margin: 0 0 1.25em;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+div[class*="col-"] {
+  padding: .75em;
+}
+
+@media all and (min-width: 600px) {
+  .col-2-3 {
+    float: left;
+    width: 66.66%;
+  }
+
+  .col-1-2 {
+    float: left;
+    width: 50%;
+  }
+
+  .col-1-3 {
+    float: left;
+    width: 33.33%;
+  }
+
+  .col-1-4 {
+    float: left;
+    width: 25%;
+  }
+
+  .col-1-8 {
+    float: left;
+    width: 12.5%;
+  }
+}
