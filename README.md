@@ -1,6 +1,6 @@
 # Responsive CSS Grid
 
-A straightforward 8-column fluid layout based on `box-sizing`.
+A super-lightweight, responsive, 8-column grid based on `box-sizing`.
 
 
 ## Classes
@@ -16,7 +16,7 @@ These CSS classes for column sizes are specific to the total width of `<div clas
 | `.col-1-8` | one-eighth |
 
 
-## Example
+## Markup
 
 ```html
 <div class="container">
@@ -30,3 +30,8 @@ These CSS classes for column sizes are specific to the total width of `<div clas
   </div>
   ...
 ```
+
+
+## Live Example
+
+[Responsive CSS grid](http://codepen.io/AllThingsSmitty/full/YqEbPB).
