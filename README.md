@@ -35,3 +35,24 @@ These CSS classes for column sizes are specific to the total width of `<div clas
 ## Live Example
 
 [Responsive CSS grid](http://codepen.io/AllThingsSmitty/full/YqEbPB).
+
+
+## Browser support
+
+The responsive CSS grid works in the latest versions of:
+
+* Chrome
+* Firefox
+* Opera
+* Safari
+* Edge
+* Internet Explorer
+* iOS Safari
+* Chrome for Android
+
+The above list is non-exhaustive. This grid works perfectly with any browser that supports `box-sizing`, including IE8+.
+
+
+## License
+
+[The MIT License (MIT)](https://github.com/AllThingsSmitty/responsive-css-grid/blob/master/LICENSE)
