@@ -1,0 +1,23 @@
+{
+  "name": "responsive-css-grid",
+  "version": "1.0.0",
+  "description": "A super-lightweight, responsive, 8-column grid based on `box-sizing`",
+  "homepage": "https://github.com/allthingssmitty/responsive-css-grid",
+  "author": "Matt Smith <matt@allthingssmitty.com> (http://allthingssmitty.com)",
+  "maintainers": [
+    "Matt Smith <matt@allthingssmitty.com> (http://allthingssmitty.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllThingsSmitty/responsive-css-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllThingsSmitty/responsive-css-grid/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "responsive",
+    "css",
+    "grid"
+  ]
+}

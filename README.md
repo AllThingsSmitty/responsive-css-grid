@@ -1,9 +1,24 @@
 # Responsive CSS Grid
 
+[![NPM version](https://img.shields.io/npm/v/responsive-css-grid.svg?)](https://www.npmjs.com/package/responsive-css-grid)
+
 A super-lightweight, responsive, 8-column grid based on `box-sizing`.
 
 
-## Classes
+## Getting Started
+
+You may install this plugin with this command:
+
+```shell
+npm install responsive-css-grid --save-dev
+```
+
+**Issues with the output should be reported on the `responsive-css-grid` [issue tracker](https://github.com/allthingssmitty/responsive-css-grid/issues).**
+
+
+## Usage
+
+### Classes
 
 These CSS classes for column sizes are specific to the total width of `<div class="container">`:
 
@@ -16,7 +31,7 @@ These CSS classes for column sizes are specific to the total width of `<div clas
 | `.col-1-8` | one-eighth |
 
 
-## Markup
+### Markup
 
 ```html
 <div class="container">
