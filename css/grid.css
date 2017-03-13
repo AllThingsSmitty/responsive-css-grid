@@ -37,7 +37,7 @@ body {
 }
 
 .row {
-  margin: 0 0 1.25em;
+  margin: 0 0 .25em;
 }
 
 .row:last-child {
@@ -52,7 +52,7 @@ body {
 
 div[class*="col-"] {
   float: left;
-  padding: .75em;
+  padding: 0 .75em;
 }
 
 @media all and (min-width: 37em) {
