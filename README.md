@@ -21,7 +21,7 @@ npm install responsive-css-grid --save-dev
 ```html
 <div class="container">
 
-  <div class="row clearfix">
+  <div class="row">
     <div class="col-2-3"> <!-- column is 2/3 the total width -->
       Your content
     </div>
@@ -30,7 +30,7 @@ npm install responsive-css-grid --save-dev
     </div>
   </div>
 
-  <div class="row clearfix">
+  <div class="row">
     <div class="col-1-4"> <!-- column is 1/4 the total width -->
       Your content
     </div>

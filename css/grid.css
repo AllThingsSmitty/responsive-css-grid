@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-.clearfix:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
 /**
  * Global
  */
@@ -48,6 +42,12 @@ body {
 
 .row:last-child {
   margin-bottom: 0;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
 div[class*="col-"] {
