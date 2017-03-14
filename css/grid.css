@@ -5,6 +5,8 @@
 *:before,
 *:after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /**
@@ -37,7 +39,7 @@ body {
 }
 
 .row {
-  margin: 0 0 .25em;
+  margin-bottom: 1.5em;
 }
 
 .row:last-child {
