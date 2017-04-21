@@ -51,6 +51,16 @@ body {
   display: table;
 }
 
+@supports (display: flow-root) {
+  .row {
+    display: flow-root;
+  }
+
+  .row::after {
+    content: none;  
+  }
+}
+
 div[class*="col-"] {
   float: left;
   padding: 0 .75em;
